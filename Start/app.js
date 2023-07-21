@@ -43,7 +43,6 @@
 // console.log('1부터 100까지 합계는 : ' + sum);
 
 // 최종예제
-
 // for (let i = 1; i <=100; i++) {
 //   console.log(i);
 //   if (true) {
@@ -64,3 +63,44 @@ for (let i = 1; i <=100; i++) {
     console.log('오오');
   } 
 } 
+
+// 함수 funtion
+
+// 함수 선언
+// let user = "홍길동";
+// function showMessage() {
+//   let message = "Hello"
+//   alert(user + '님' + message);
+// }
+// 함수 호출(실행)
+// showMessage(); 
+// showMessage();
+ //여러번 넣으면 여러번 실행
+
+// 지역변수 전역변수
+// let b = 'b';
+// {
+//   let a = 'a';
+//   var c = 'c';
+//   console.log(a);
+//   console.log(b);
+// }
+// console.log(c);
+// console.log(b);
+// console.log(a);
+
+// 함수의 인수
+function showMessage(who, text) {
+  who = '🚀' + who + '🛫';
+  alert(who + ':' + text);
+}
+
+// 함수의 리턴 (변환값)
+// function 더하기(a, b) {
+//   return a + b;
+// }
+// function 곱하기(a, b) {
+//   return a * b;
+// }
+// console.log(곱하기(10,10));
+// let result = 곱하기(7,7);
