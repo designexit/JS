@@ -10,6 +10,7 @@ panels.forEach(function(panel){
     // 모든 패널에서 active class를 제거하기
     removeActiveClass();
     panel.classList.add('active');
+
   })
 })
 
